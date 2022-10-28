@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!--javascript-->
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header id="home">
+        <!--navbar-->
+        <nav id="nav">
+            <div class="nav-bar">
+                <!--links-->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll">home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll">about</a>
+                        </li>
+                        <li>
+                            <a href="#project" class="scroll">project</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="scroll">contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!--banner-->
+        <div class="banner">
+            <div class="container">
+                <h1>Me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iusto tempore harum nemo
+                    repudiandae, at quam consequatur, quo expedita quod, ab dolorum iste dolore commodi minima
+                    necessitatibus iure facilis aperiam.
+                </p>
+
+                <!--Modal-->
+                <button id = "open" class="btn">Click Me</button>
+                <!--Modal Content-->
+                <div class = "modal-container" id = "modal-container">
+                    <div class = "modal">
+                        <h1>Hello!</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequuntur suscipit ad porro eligendi reiciendis vel, esse iusto maxime eius similique enim officia numquam minima incidunt nulla nesciunt modi consequatur!
+                        </p>
+                        <button id = "close">Close Me</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--About-->
+        <div id="about" class="section">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-center section-center">
+                <article class="about-img">
+                  <img src="img/mountainPic.jpg" alt="" />
+                </article>
+                <article class="about">
+                  <!-- btn container -->
+                  <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">history</button>
+                    <button class="tab-btn" data-id="vision">vision</button>
+                    <button class="tab-btn" data-id="goals">goals</button>
+                  </div>
+                  <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                      <h4>history</h4>
+                      <p class="p-text">
+                        I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                        mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                        rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                        tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                        mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                        direct trade hoodie ugh chambray, craft beer pork belly flannel
+                        tacos single-origin coffee art party migas plaid pop-up.
+                      </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                      <h4>vision</h4>
+                      <p class="p-text">
+                        Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                        crucifix offal deep v hella biodiesel. Church-key listicle
+                        polaroid put a bird on it chillwave palo santo enamel pin,
+                        tattooed meggings franzen la croix cray. Retro yr aesthetic four
+                      </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                      <h4>goals</h4>
+                      <p class="p-text">
+                        Chambray authentic truffaut, kickstarter brunch taxidermy vape
+                        heirloom four dollar toast raclette shoreditch church-key.
+                        Poutine etsy tote bag, cred fingerstache leggings cornhole
+                        everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk
+                        swag, mixtape hashtag marfa readymade direct trade man braid
+                        cold-pressed roof party. Small batch adaptogen coloring book
+                        heirloom. Letterpress food truck hammock literally hell of wolf
+                        beard adaptogen everyday carry. Dreamcatcher pitchfork yuccie,
+                        banh mi salvia venmo photo booth quinoa chicharrones.
+                      </p>
+                    </div>
+                    <!-- end of single item -->
+                  </div>
+                </article>
+              </div>
+            </section>
+
+
+        </div>
+        <!--Project-->
+        <div id="project" class="section">
+            <div class="title">
+                <h2>My Projects</h2>
+            </div>
+        </div>
+        <!--Contact-->
+        <div id="contact" class="section">
+            <div class="title">
+                <h2>Contact</h2>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repudiandae et necessitatibus doloribus! Ducimus, temporibus error repellat doloremque ipsa numquam voluptatem repudiandae rem provident atque debitis esse quisquam maiores iure.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repudiandae et necessitatibus doloribus! Ducimus, temporibus error repellat doloremque ipsa numquam voluptatem repudiandae rem provident atque debitis esse quisquam maiores iure.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repudiandae et necessitatibus doloribus! Ducimus, temporibus error repellat doloremque ipsa numquam voluptatem repudiandae rem provident atque debitis esse quisquam maiores iure.</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- footer -->
+    <footer class="section">
+        <p>
+            copyright &copy;
+            <span id="date"></span>. all rights reserved
+        </p>
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+
+</html>
